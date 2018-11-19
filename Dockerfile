@@ -12,4 +12,4 @@ RUN useradd -ms /bin/bash yocto
 USER yocto
 WORKDIR /home/yocto
 
-CMD ["bash"]
+SHELL ["/bin/bash", "-c"]
