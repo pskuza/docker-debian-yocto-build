@@ -10,6 +10,5 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN useradd -ms /bin/bash yocto
 USER yocto
-WORKDIR /home/yocto
 
 SHELL ["/bin/bash", "-c"]
